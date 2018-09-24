@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		773AED7D2156C42900D87353 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773AED7C2156C42900D87353 /* main.swift */; };
+		773AED842156C4ED00D87353 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773AED832156C4ED00D87353 /* Car.swift */; };
+		773AED862156C78D00D87353 /* BodyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773AED852156C78D00D87353 /* BodyStyle.swift */; };
+		773AED882156D17300D87353 /* Drivable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773AED872156D17300D87353 /* Drivable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		773AED792156C42900D87353 /* PA3_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PA3_1; sourceTree = BUILT_PRODUCTS_DIR; };
 		773AED7C2156C42900D87353 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		773AED832156C4ED00D87353 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		773AED852156C78D00D87353 /* BodyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyStyle.swift; sourceTree = "<group>"; };
+		773AED872156D17300D87353 /* Drivable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drivable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				773AED7C2156C42900D87353 /* main.swift */,
+				773AED832156C4ED00D87353 /* Car.swift */,
+				773AED872156D17300D87353 /* Drivable.swift */,
+				773AED852156C78D00D87353 /* BodyStyle.swift */,
 			);
 			path = PA3_1;
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773AED842156C4ED00D87353 /* Car.swift in Sources */,
 				773AED7D2156C42900D87353 /* main.swift in Sources */,
+				773AED882156D17300D87353 /* Drivable.swift in Sources */,
+				773AED862156C78D00D87353 /* BodyStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,9 +254,11 @@
 		773AED812156C42900D87353 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = GUYPJD4NUE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -252,9 +266,11 @@
 		773AED822156C42900D87353 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = GUYPJD4NUE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
